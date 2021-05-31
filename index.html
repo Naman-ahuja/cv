@@ -3,42 +3,54 @@
 <html>
 
 <head>
-  <meta charset=UTF-8">
+  <meta charset="UTF-8">
   <title>Naman's website</title>
 
-
+<link rel="stylesheet" href="css/styles.css">
 
 <body>
+  <div class="navbar">
+      <a href="index.html">Home</a>   &nbsp; &nbsp; &nbsp; &nbsp;
+
+      <a href="website page 2.html">Investing</a> &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="new.html">Contact us</a> &nbsp; &nbsp; &nbsp; &nbsp;
+      <a href="new1.html">To do..</a> &nbsp; &nbsp;
+    <img class="wow" src="data:image/png;base64,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"">
+    <style media="screen">
+      .wow{ height: 80px;
+        width: 80px;
+        float: right;
+
+      }
+    </style>
+  </div>
+  <br>
+  <center>
+          <h1 id="heading">Financial knowledge courses</h1>
+        </center>
+        <br>
   <table cellspacing="10">
     <tr>
       <td> <img
-          src="data:image/jpeg;base64,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"
+          src="https://www.indiablooms.com/finance_pic/2021/4ee0dd175a87a95ba18ce719cd0a2871.jpg"
           width="150" height="150" alt="Family picture"></td>
       <td>
 
-        <h1>Financial knowledge courses🔥</h1>
-        <p><em>by- <strong>Naman ahuja</strong></em></p>
+
+        <p class="me"><em>by- <strong>Naman ahuja</strong></em></p>
         <p>Hi,I am a <b>finance enthusiast</b> and i have gained considerable knowledge in the field of personal finance and equity market.
           I have been managing the portfolios of a nearly <a href="website page 2.html"><em>200 people</em></a> since 2 years.Here I present before you a reliable source
           to learn and master about <em>personal finances.</em> </p>
       </td>
-      <td><img src="https://www.indiablooms.com/finance_pic/2021/4ee0dd175a87a95ba18ce719cd0a2871.jpg" alt="Smiley face" width="150" height="150"></td>
+      <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlRdBjIsG6n8Et30MvSnZ9ZhRblrY5s8EtVpK7_6g-txqYFYk0QXsWVklq-G0FdLfhoHQ&usqp=CAU" alt="Smiley face" width="150" height="150"></td>
     </tr>
   </table>
 
-  <style media="screen">
-    p {
-      font-size: 18px;
-    }
-
-    ul {
-      font-size: 18px;
-    }
-  </style>
 
 
 
-  <hr size="4" noshade>
+
+  <hr>
   <h3>EDUCATION</h3>
   <ul>
     <li>Udemy course</li>
@@ -52,7 +64,8 @@
     <li>Books by <a href="https://www.arinesolutions.com/company/G-S-INDUSTRIAL-AND-FINANCIAL-CONSULTANTS-PRIVATE-LIMITED-U74140MH1974PTC017868"><em>G.S.Shah</em></a></li>
     <p>To learn about how to insert picture in a webpage <a href="https://www.w3schools.com/howto/howto_css_rounded_images.asp"><b>click here</b></a></p>
   </ul>
-  <hr size="4" noshade>
+  <hr>
+  <br>
   <h2>Why learning personal finance is not a luxury but a necessity</h2>
   <p>We live in an era of a developing world.The middle class population of india is growing its assets by working
     in big MNC's.People nowadays are tatally focused upon learning a skill that can land them into a secure job.But in the
@@ -60,9 +73,11 @@
     You maybe able to earn a lot but maybe you wont be able to extract the full potential from that hard eaned money if u lack in <b>money management</b>
     .It not only involves keeping a check on expenditures but also makes you aware of the various <a href="website page 2.html"><em>Investing Options</a></em> so as to grow your money
     in order to beat the <a href="https://www.investopedia.com/terms/i/inflation.asp#:~:text=Inflation%20is%20the%20decline%20of,over%20some%20period%20of%20time.">inflation rates</a><b>.</b></p>
-  <hr size="4" noshade>
 
-  <h3>SKILLS</h3>
+<br>  <hr>
+  <br>
+
+  <h3>                          SKILLS</h3>
   <table cellspacing="30">
     <tr>
       <td>
@@ -108,9 +123,9 @@
   </table>
 
 
-
-  <hr size="4" noshade>
-  <h4>To enter your personal details <a href="new.html"><em>click here</em></a> </h4>
+<br>
+  <hr>
+  <h4>To contact me <a href="new.html"><em>click here</em></a> </h4>
 </body>
 
 </html>
