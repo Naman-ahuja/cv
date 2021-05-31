@@ -1,0 +1,77 @@
+/*********************************TAG SELECTORS****************************/
+body{background-color: mistyrose;
+
+}
+  p{
+    font-size: 18px;
+  }
+
+  ul {
+    font-size: 18px;
+  }
+  hr {
+    border-color:grey;
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    height: 0;
+    border-width: 5px;
+    transition: all 0.3s linear;
+  }
+  img{
+  width:220px;
+  height:200px;
+border-radius: 100%;}
+
+  img:hover{
+      transform: scale(1.1);
+
+}
+  h1 {
+    font-size: 50px;;
+    color: #ba135d;
+
+  text-decoration: underline;
+
+  }
+  #heading:hover{
+      transform:scale(1.1);}
+
+      .navbar a{
+          display:block;
+          padding:30px 30px;
+          text-decoration: none;
+          color:#1eae98;
+          float:left;
+          text-align: center;
+
+      }
+      .navbar a:hover{
+          color:blue;
+      }
+      .navbar{
+          overflow:hidden;
+          font-size:25px;
+background-color: #fdfaf6;
+          font-family: 'Copperplate', fantasy;
+
+      }
+
+  h3 {
+    color: #02475e;
+  }
+  h2
+  {
+   color: #02475e;
+ }
+/************************************CLASS SELECTORS***********************************/
+/*
+
+.me{
+  color: cyan;
+}
+************************************CLASS SELECTORS***********************************/
+#heading
+{
+    font-family: "Brush Script MT",CURSIVE;
+}
